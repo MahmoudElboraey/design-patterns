@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c75401c5-a4db-4874-a6aa-29e9e6870eb7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="3" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0001140008552467" />
+      <entry key="MS500" value="1.2028861522359309" />
+      <entry key="S2" value="2.093892274751424" />
+      <entry key="S5" value="2.7950595425273717" />
+      <entry key="S10" value="3.444673259341034" />
+      <entry key="S30" value="4.316901508985319" />
+      <entry key="S60" value="4.784408667022004" />
+      <entry key="M2" value="5.9182889051417344" />
+      <entry key="M5" value="12.62463851938821" />
+      <entry key="M10" value="28.35920660389258" />
+      <entry key="M15" value="43.43533919696158" />
+      <entry key="M30" value="73.59219317415294" />
+      <entry key="H1" value="99.55086314231635" />
+      <entry key="H2" value="116.86262937233167" />
+      <entry key="H4" value="126.9000411130131" />
+      <entry key="D1" value="136.07120797383442" />
+      <entry key="W1" value="137.7224594441741" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.0217248158971433E-120" />
+      <entry key="S5" value="1.5614512714232878E-48" />
+      <entry key="S10" value="1.3190907410078906E-24" />
+      <entry key="S30" value="1.5202663819227134E-8" />
+      <entry key="S60" value="2.0688714504632461E-4" />
+      <entry key="M2" value="0.034445750486442876" />
+      <entry key="M5" value="1.014188574925622" />
+      <entry key="M10" value="3.8089185780379955" />
+      <entry key="M15" value="6.346057400202537" />
+      <entry key="M30" value="11.169949373227029" />
+      <entry key="H1" value="15.182324208199368" />
+      <entry key="H2" value="17.81608160522744" />
+      <entry key="H4" value="19.331816474825935" />
+      <entry key="D1" value="20.71067922800645" />
+      <entry key="W1" value="20.958382272221353" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.2011146192900473E-4" />
+      <entry key="MS500" value="0.28472997273138395" />
+      <entry key="S2" value="1.516448499011438" />
+      <entry key="S5" value="2.4799326174583736" />
+      <entry key="S10" value="3.2617132978147634" />
+      <entry key="S30" value="4.2473393651590925" />
+      <entry key="S60" value="4.748315111619393" />
+      <entry key="M2" value="5.933034593231133" />
+      <entry key="M5" value="13.623974173680145" />
+      <entry key="M10" value="32.14940103522389" />
+      <entry key="M15" value="49.76094277357873" />
+      <entry key="M30" value="84.7436090814043" />
+      <entry key="H1" value="114.72027143123148" />
+      <entry key="H2" value="134.67102672467814" />
+      <entry key="H4" value="146.2276587982322" />
+      <entry key="D1" value="156.78113299252158" />
+      <entry key="W1" value="158.68073257145412" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3GeDOpUWqGOfxj8vECLVDoQItXh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mahmoudhasan/programms/backend/design-pattern-course/solid-uml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/mahmoudhasan/programms/backend/design-pattern-course/solid-uml/solid-test-sol/src/main/java/com/learn/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="f0c6f295-80a7-49ef-be39-18f2bd2c12ff" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c75401c5-a4db-4874-a6aa-29e9e6870eb7" name="Changes" comment="" />
+      <created>1784323113738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784323113738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

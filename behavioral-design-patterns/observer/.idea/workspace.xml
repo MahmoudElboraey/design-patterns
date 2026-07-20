@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c75401c5-a4db-4874-a6aa-29e9e6870eb7" name="Changes" comment="" />
+    <list default="true" id="48ad0af1-1f90-4a96-a5ae-6cf0aec55cdf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
+    <option name="cachedIndexableFilesCount" value="12" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -30,71 +22,68 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0098345583062476" />
-      <entry key="MS500" value="1.5416603143471659" />
-      <entry key="S2" value="5.495182604963178" />
-      <entry key="S5" value="15.29606264623306" />
-      <entry key="S10" value="25.462087836172337" />
-      <entry key="S30" value="38.25851613919174" />
-      <entry key="S60" value="42.767196203446446" />
-      <entry key="M2" value="45.357608680896305" />
-      <entry key="M5" value="49.0665796250903" />
-      <entry key="M10" value="59.21833822453394" />
-      <entry key="M15" value="71.80444201384438" />
-      <entry key="M30" value="102.71916485786566" />
-      <entry key="H1" value="133.89490083585565" />
-      <entry key="H2" value="156.56408647997702" />
-      <entry key="H4" value="170.314389065033" />
-      <entry key="D1" value="183.23949149259818" />
-      <entry key="W1" value="185.60189445718646" />
+      <entry key="MS100" value="1.6973718331752028" />
+      <entry key="MS500" value="1.9305196715594746" />
+      <entry key="S2" value="2.073613243415103" />
+      <entry key="S5" value="2.376982724877827" />
+      <entry key="S10" value="2.616213009052207" />
+      <entry key="S30" value="2.851414458291758" />
+      <entry key="S60" value="2.922771096304445" />
+      <entry key="M2" value="2.960621969266656" />
+      <entry key="M5" value="2.9840616097943795" />
+      <entry key="M10" value="2.991999276108371" />
+      <entry key="M15" value="2.9946591528341653" />
+      <entry key="M30" value="2.997326054567252" />
+      <entry key="H1" value="2.998662145650954" />
+      <entry key="H2" value="2.999330852270862" />
+      <entry key="H4" value="2.9996653709784606" />
+      <entry key="D1" value="2.9999442208341645" />
+      <entry key="W1" value="2.9999920313600708" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="9.873784749531799E-235" />
-      <entry key="S5" value="2.507378705909127E-94" />
-      <entry key="S10" value="1.6715540369289216E-47" />
-      <entry key="S30" value="3.544336453981847E-16" />
-      <entry key="S60" value="3.1589382125207797E-8" />
-      <entry key="M2" value="4.256370884690525E-4" />
-      <entry key="M5" value="0.17493642166864437" />
-      <entry key="M10" value="1.5819124770139896" />
-      <entry key="M15" value="3.5325732093528104" />
-      <entry key="M30" value="8.333832975910056" />
-      <entry key="H1" value="13.113996245659012" />
-      <entry key="H2" value="16.558103394788397" />
-      <entry key="H4" value="18.636822201198243" />
-      <entry key="D1" value="20.584684200593532" />
-      <entry key="W1" value="20.940120038693696" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.08329027619656966" />
-      <entry key="MS500" value="0.9276904536073385" />
-      <entry key="S2" value="5.0473174902214275" />
-      <entry key="S5" value="14.998630609172434" />
-      <entry key="S10" value="25.259835062620027" />
-      <entry key="S30" value="38.168349013078746" />
-      <entry key="S60" value="42.71802966413782" />
-      <entry key="M2" value="45.332063929184805" />
-      <entry key="M5" value="49.22836998885928" />
-      <entry key="M10" value="60.78713169576817" />
-      <entry key="M15" value="75.32205644469872" />
-      <entry key="M30" value="111.03737790994563" />
-      <entry key="H1" value="146.99684319343842" />
-      <entry key="H2" value="173.1145990726603" />
-      <entry key="H4" value="188.94693877289976" />
-      <entry key="D1" value="203.82338861743366" />
-      <entry key="W1" value="206.54190009506192" />
+      <entry key="MS100" value="1.6645348682171952" />
+      <entry key="MS500" value="1.9225852553418477" />
+      <entry key="S2" value="2.0639968784027705" />
+      <entry key="S5" value="2.3631204799803207" />
+      <entry key="S10" value="2.605192411564264" />
+      <entry key="S30" value="2.846384829366595" />
+      <entry key="S60" value="2.920049492604702" />
+      <entry key="M2" value="2.9592062369175403" />
+      <entry key="M5" value="2.983481699130284" />
+      <entry key="M10" value="2.991707014065208" />
+      <entry key="M15" value="2.9944637960898053" />
+      <entry key="M30" value="2.9972281178058604" />
+      <entry key="H1" value="2.998613112541769" />
+      <entry key="H2" value="2.999306319517723" />
+      <entry key="H4" value="2.9996531005502" />
+      <entry key="D1" value="2.9999421751998785" />
+      <entry key="W1" value="2.9999917391128137" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8,
   "fromUser": false
 }]]></component>
-  <component name="ProjectId" id="3GeDOpUWqGOfxj8vECLVDoQItXh" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="3Gjsb46ipby3lgqm9gVKbDb7veF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -109,21 +98,26 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mahmoudhasan/programms/backend/design-pattern-course/solid-uml",
+    "last_opened_file_path": "/home/mahmoudhasan/programms/backend/design-pattern-course/behavioral-design-patterns/observer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/mahmoudhasan/programms/backend/design-pattern-course/solid-uml/solid-test-sol/src/main/java/com/learn/Main.java"
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/observer-coding-test-sol/src/main/java/com/learn/productionrefactor/before" />
+      <recent name="$PROJECT_DIR$/observer-coding-test-sol/src/main/java/com/learn/productionrefactor" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
       <option name="appServicePlanResourceGroup" />
-      <option name="appSettingsKey" value="f0c6f295-80a7-49ef-be39-18f2bd2c12ff" />
+      <option name="appSettingsKey" value="111d25f6-b727-43bd-8920-3e5041da0b2b" />
       <option name="artifact" />
       <option name="debugOptions" />
       <option name="deployment" />
@@ -160,11 +154,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c75401c5-a4db-4874-a6aa-29e9e6870eb7" name="Changes" comment="" />
-      <created>1784323113738</created>
+      <changelist id="48ad0af1-1f90-4a96-a5ae-6cf0aec55cdf" name="Changes" comment="" />
+      <created>1784496381036</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1784323113738</updated>
+      <updated>1784496381036</updated>
     </task>
     <servers />
   </component>

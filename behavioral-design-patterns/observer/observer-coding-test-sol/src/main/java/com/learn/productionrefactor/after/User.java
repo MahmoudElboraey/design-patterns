@@ -1,4 +1,4 @@
-package com.learn.productionrefactor.before;
+package com.learn.productionrefactor.after;
 
 public class User {
     private String id;

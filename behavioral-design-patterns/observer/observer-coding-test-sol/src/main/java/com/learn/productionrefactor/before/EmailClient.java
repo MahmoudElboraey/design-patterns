@@ -1,4 +1,4 @@
-package com.learn;
+package com.learn.productionrefactor.before;
 
 public class EmailClient {
 

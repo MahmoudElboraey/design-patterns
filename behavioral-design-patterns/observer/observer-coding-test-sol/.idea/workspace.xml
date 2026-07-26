@@ -4,14 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d37d482-17da-4c05-9324-a97975a0cd18" name="Changes" comment="" />
+    <list default="true" id="7d37d482-17da-4c05-9324-a97975a0cd18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../memento/memento-interview-test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/AnalyticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/LoyaltyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/OrderCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/OrderEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/AnalyticsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/EmailListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/LoyaltyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderPlacedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/WarehouseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-test-sol-partB.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-test-sol-partD.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../template/template-interview-test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../visitor/visitor-interview-test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/AnalyticsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/AnalyticsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/EmailClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/EmailClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/LoyaltyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/LoyaltyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/WarehouseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/WarehouseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observer-interview-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/../observer-interview-test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../strategy/strategy-interview-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../strategy/strategy-interview-test.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="29" />
+    <option name="cachedIndexableFilesCount" value="42" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,61 +74,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.254543583790474" />
-      <entry key="MS500" value="2.763996114521663" />
-      <entry key="S2" value="5.605440109855047" />
-      <entry key="S5" value="10.733389223203826" />
-      <entry key="S10" value="17.559661301071937" />
-      <entry key="S30" value="29.811723900950707" />
-      <entry key="S60" value="38.398075445224954" />
-      <entry key="M2" value="48.11090894214474" />
-      <entry key="M5" value="66.54316731570677" />
-      <entry key="M10" value="89.49887152464163" />
-      <entry key="M15" value="109.68594135672622" />
-      <entry key="M30" value="168.60468754078875" />
-      <entry key="H1" value="250.1436335301512" />
-      <entry key="H2" value="323.6043953318543" />
-      <entry key="H4" value="373.76922289786603" />
-      <entry key="D1" value="424.66754247495044" />
-      <entry key="W1" value="434.35575896133315" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000130462978805" />
+      <entry key="S2" value="1.0601362744226204" />
+      <entry key="S5" value="1.3501943849331839" />
+      <entry key="S10" value="1.8102198202149735" />
+      <entry key="S30" value="3.315047908921121" />
+      <entry key="S60" value="5.713266101503923" />
+      <entry key="M2" value="11.507855836737575" />
+      <entry key="M5" value="39.94776477905619" />
+      <entry key="M10" value="89.84470828610081" />
+      <entry key="M15" value="128.7041400683329" />
+      <entry key="M30" value="214.48669938335297" />
+      <entry key="H1" value="319.31546946553425" />
+      <entry key="H2" value="413.6788621176742" />
+      <entry key="H4" value="479.2223793419721" />
+      <entry key="D1" value="546.8026516330744" />
+      <entry key="W1" value="559.7915977088117" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="7.898444548350347E-6" />
-      <entry key="MS500" value="0.09545675250523826" />
-      <entry key="S2" value="0.6829451822660767" />
-      <entry key="S5" value="1.7503849854370332" />
-      <entry key="S10" value="3.131243851008312" />
-      <entry key="S30" value="5.3262190732094306" />
-      <entry key="S60" value="6.915138332202213" />
-      <entry key="M2" value="9.31166927319955" />
-      <entry key="M5" value="14.236862870201982" />
-      <entry key="M10" value="19.989473570754257" />
-      <entry key="M15" value="25.284633325256223" />
-      <entry key="M30" value="39.03852519349978" />
-      <entry key="H1" value="54.842205021021755" />
-      <entry key="H2" value="67.43572005913936" />
-      <entry key="H4" value="75.47920720388588" />
-      <entry key="D1" value="83.29873797317043" />
-      <entry key="W1" value="84.75398958516524" />
+      <entry key="MS100" value="5.5082744552386046E-89" />
+      <entry key="MS500" value="2.2294776050822866E-18" />
+      <entry key="S2" value="3.864121570602198E-5" />
+      <entry key="S5" value="0.0171859171776107" />
+      <entry key="S10" value="0.13638137062229094" />
+      <entry key="S30" value="0.8748594576365415" />
+      <entry key="S60" value="2.1639860456887248" />
+      <entry key="M2" value="4.279280689848079" />
+      <entry key="M5" value="9.137479100197995" />
+      <entry key="M10" value="16.442950796615207" />
+      <entry key="M15" value="22.92342421064625" />
+      <entry key="M30" value="38.97689735158698" />
+      <entry key="H1" value="58.17203372325979" />
+      <entry key="H2" value="74.31554168130582" />
+      <entry key="H4" value="85.00111946141661" />
+      <entry key="D1" value="95.65045134277257" />
+      <entry key="W1" value="97.65954022888765" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1967273742813447" />
-      <entry key="MS500" value="2.779969095034562" />
-      <entry key="S2" value="6.123109530505512" />
-      <entry key="S5" value="12.297529893072097" />
-      <entry key="S10" value="20.512223516739365" />
-      <entry key="S30" value="35.016803179391516" />
-      <entry key="S60" value="45.20537562328376" />
-      <entry key="M2" value="57.32624989741631" />
-      <entry key="M5" value="80.7011369677881" />
-      <entry key="M10" value="109.42199555758106" />
-      <entry key="M15" value="134.90993720636536" />
-      <entry key="M30" value="207.59155552177563" />
-      <entry key="H1" value="304.9474292298304" />
-      <entry key="H2" value="391.015779837295" />
-      <entry key="H4" value="449.2346000936287" />
-      <entry key="D1" value="507.9637034857751" />
-      <entry key="W1" value="519.1093731401301" />
+      <entry key="MS100" value="0.003472041723306915" />
+      <entry key="MS500" value="0.3222006296019227" />
+      <entry key="S2" value="0.8048524197903606" />
+      <entry key="S5" value="1.2374037575532633" />
+      <entry key="S10" value="1.859930597657472" />
+      <entry key="S30" value="4.1265761015889755" />
+      <entry key="S60" value="7.805980988699775" />
+      <entry key="M2" value="15.710034086075332" />
+      <entry key="M5" value="49.01412206809334" />
+      <entry key="M10" value="106.22275028150548" />
+      <entry key="M15" value="151.5663119999021" />
+      <entry key="M30" value="253.40960968336344" />
+      <entry key="H1" value="377.4458602291758" />
+      <entry key="H2" value="487.96722937166203" />
+      <entry key="H4" value="564.2077721661577" />
+      <entry key="D1" value="642.4501224218363" />
+      <entry key="W1" value="657.4507023973197" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -100,27 +143,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlertSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mahmoudhasan/programms/backend/design-pattern-course/behavioral-design-patterns/observer/observer-coding-test-sol&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlertSystem.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mahmoudhasan/programms/backend/design-pattern-course/behavioral-design-patterns/observer/observer-coding-test-sol",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="55bf549f-d614-4532-b717-4abd4d9d3f41" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -155,8 +229,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
       </set>
     </attachedChunks>
   </component>
@@ -172,5 +246,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

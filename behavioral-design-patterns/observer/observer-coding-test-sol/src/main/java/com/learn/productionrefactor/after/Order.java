@@ -1,5 +1,8 @@
-package com.learn.productionrefactor.before;
+package com.learn.productionrefactor.after;
 
+import com.learn.productionrefactor.before.Item;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
@@ -11,6 +14,7 @@ public class Order {
     public Order(String id, double total) {
         this.id = id;
         this.total = total;
+        this.items = new ArrayList<>();
     }
 
     public double getTotal() {

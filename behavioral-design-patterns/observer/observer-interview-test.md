@@ -138,4 +138,28 @@ d) A teammate jumps straight to Stage 3 for requirement (a) "so we're future-pro
 
 ---
 
+## Part E — Pattern-or-Not Gauntlet — /10
+
+### Q8. When Observer fits, when it doesn't, and when it burns you
+
+**A) Five scenarios — verdict (Observer / not Observer / Observer-but-different-tool) + one-line justification each. Three contain traps.**
+
+1. Checkout flow: after order placed → decrement inventory, charge card, send confirmation email. The charge MUST succeed before the email goes out; a failed inventory decrement must ABORT the whole order.
+2. Admin dashboard widget must refresh whenever an in-memory config object changes, same JVM, same process.
+3. Your flight-search service must inform the reservation service (separate deployment) that a fare changed.
+4. Analytics team wants fire-and-forget hooks on 12 domain events; teams attach/detach their listeners independently; nobody cares about ordering; a dead listener must never hurt the others.
+5. Payment events must reach the ledger exactly once, with retry, surviving a JVM crash mid-delivery.
+
+The traps to catch: (1) is a WORKFLOW — ordered steps with abort semantics; observers are by contract independent, order-agnostic, failure-isolated, so Observer is wrong even though "things react to an event" sounds right. (3) crosses a process boundary — in-process Observer can't; the same IDEA becomes a message broker (your day job's Service Bus topics ARE distributed Observer). (5) needs durability guarantees an in-memory list can never give.
+
+**B) Misuse post-mortem — Observer applied where it didn't belong:**
+
+A team rebuilt their entire checkout as CDI events: `OrderPlaced` fires, seven `@Observes` methods react, some of those fire further events, three levels deep. Six months later: checkout latency +900ms (all listeners synchronous, sequential); a bug hunt takes days because NO ONE can read the control flow — grep finds no caller, the "flow" exists only at runtime; one listener throwing rolled back the whole transaction including the payment that had already been captured externally; and investigation listeners attached by the fraud team were never detached — the classic **lapsed listener** leak, subscriber list growing forever, GC can't collect them.
+
+1. Name each failure with its proper term: hidden control flow / event spaghetti; synchronous fan-out latency; transactional coupling of "independent" observers; lapsed listener memory leak.
+2. State the design-time signal the team missed: their listeners were NOT independent — checkout steps depend on each other's success and order. Dependent steps = orchestration (explicit calls in a service method), not notification.
+3. Prescribe the fix boundary: which parts stay events (analytics, email — genuinely independent, fire-and-forget, async) and which return to an explicit orchestrator (inventory, payment). One sentence on why "Observer for everything" and "Observer for nothing" are both wrong — the pattern earns its place exactly where the one-to-many is real and the many are truly independent.
+
+---
+
 *Working code goes wherever you put this pattern's project, diagrams on paper. Grading /10 per part, honest FAANG machine-coding bar: correctness, extensibility proven not claimed, narration of trade-offs unprompted.*

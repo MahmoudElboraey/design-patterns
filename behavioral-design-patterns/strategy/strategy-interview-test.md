@@ -154,4 +154,28 @@ d) A teammate builds Stage 3 for requirement (a) "so we're future-proof." Same q
 
 ---
 
+## Part E — Pattern-or-Not Gauntlet — /10
+
+### Q9. When Strategy fits, when it doesn't, and when it burns you
+
+**A) Five scenarios — verdict (Strategy / not Strategy / different tool) + one-line justification each. Three contain traps.**
+
+1. Two tax formulas, unchanged for six years, no third on any roadmap, small internal tool.
+2. Per-tenant pricing algorithm, chosen at runtime from an admin panel, new algorithms shipped quarterly by different teams.
+3. Behavior differs by the TYPE of item in a heterogeneous list — flights price one way, hotels another, bags another.
+4. The "algorithm" needs nine fields from the context object and mutates four of them.
+5. Discounting has 4 independent axes (customer tier × season × channel × promo), 5 options each — someone proposes one strategy class per combination.
+
+The traps to catch: (3) is TYPE dispatch, not algorithm selection — that's polymorphism on the items or Visitor territory, not Strategy (Strategy = one algorithm slot varying per context; the items aren't choosing algorithms, they ARE different types). (4) is a leaking-context smell — either the method belongs ON the context, or the strategy interface needs a narrow parameter object; a strategy that mutates its context is a lieutenant rewriting the general's orders. (5) is combinatorial explosion — 625 classes; axes must COMPOSE (chain/decorate strategies, or data-driven rule objects), one class per combination is the pattern applied to the wrong granularity.
+
+**B) Misuse post-mortem — Strategy applied where it didn't belong:**
+
+A platform team, burned once by an if/else pyramid, swore "never again" and made EVERYTHING pluggable: 40 strategy interfaces across the codebase — `GreetingStrategy`, `TimestampFormatStrategy`, `NullCheckStrategy` — each with exactly ONE production implementation, wired through DI. Two years later: new hires need days to trace a single request through the indirection; every debugging session bounces through interface → DI container → sole implementation; test setup requires mocking strategies that never varied; and when a REAL variation finally arrived (a second tax formula), it shipped late anyway because the existing `TaxStrategy` interface had the wrong signature for it.
+
+1. Name the smell with its proper term: **speculative generality** — abstraction built for variation that was imagined, not demonstrated.
+2. State the design-time signal the team ignored: an interface with one implementation and no concrete second use case on any roadmap is not an abstraction, it's a costume. The rule of thumb they needed: extract the strategy when the SECOND variant arrives (rule of three for the cautious), because only real variants tell you where the interface boundary actually is — which is exactly why their pre-built `TaxStrategy` signature was wrong.
+3. Prescribe the fix: inline the 37 single-implementation strategies back into their callers; keep the 3 with real runtime variation. Name the principle that justifies the deletion (YAGNI / simplicity) and reconcile it in two sentences with OCP — how can "open for extension" and "don't build extension points" both be right? (Binding: OCP is a response to DEMONSTRATED change axes, not a mandate to pre-abstract every axis.)
+
+---
+
 *Working code goes wherever you put this pattern's project, diagrams on paper. Grading /10 per part, honest FAANG machine-coding bar: correctness, extensibility proven not claimed, narration of trade-offs unprompted.*

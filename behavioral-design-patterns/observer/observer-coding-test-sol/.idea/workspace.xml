@@ -4,57 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d37d482-17da-4c05-9324-a97975a0cd18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../memento/memento-interview-test.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/AnalyticsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/LoyaltyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/OrderCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/OrderEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/after/WarehouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/AnalyticsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/EmailListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/LoyaltyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderPlacedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/WarehouseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../observer-test-sol-partB.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../observer-test-sol-partD.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../template/template-interview-test.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../visitor/visitor-interview-test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/AnalyticsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/AnalyticsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/EmailClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/EmailClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/LoyaltyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/LoyaltyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/WarehouseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/before/WarehouseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../observer-interview-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/../observer-interview-test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../strategy/strategy-interview-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../strategy/strategy-interview-test.md" afterDir="false" />
-    </list>
+    <list default="true" id="7d37d482-17da-4c05-9324-a97975a0cd18" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="42" />
+    <option name="cachedIndexableFilesCount" value="68" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,28 +100,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlertSystem.executor": "Run",
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mahmoudhasan/programms/backend/design-pattern-course/behavioral-design-patterns/observer/observer-coding-test-sol",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlertSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mahmoudhasan/programms/backend/design-pattern-course/behavioral-design-patterns/observer/observer-coding-test-sol&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="55bf549f-d614-4532-b717-4abd4d9d3f41" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />

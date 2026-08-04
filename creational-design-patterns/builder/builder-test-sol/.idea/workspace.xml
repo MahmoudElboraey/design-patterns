@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ad8f640-06c2-497d-beb5-a456c648559a" name="Changes" comment="" />
+    <list default="true" id="5ad8f640-06c2-497d-beb5-a456c648559a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.builder-part-A-sol.autosave.xopp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3" />
+    <option name="cachedIndexableFilesCount" value="15" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,67 +33,67 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.007758535120601844" />
-      <entry key="MS500" value="0.3784041982423948" />
-      <entry key="S2" value="0.7843122454626017" />
-      <entry key="S5" value="0.9092129051565436" />
-      <entry key="S10" value="1.0521294716030904" />
-      <entry key="S30" value="2.6852682913882218" />
-      <entry key="S60" value="5.339842589296244" />
-      <entry key="M2" value="10.792903290769283" />
-      <entry key="M5" value="22.567902425936822" />
-      <entry key="M10" value="30.962432020531107" />
-      <entry key="M15" value="34.682446733991156" />
-      <entry key="M30" value="39.87315885155877" />
-      <entry key="H1" value="53.22776704756153" />
-      <entry key="H2" value="86.00896098393011" />
-      <entry key="H4" value="126.32118667896353" />
-      <entry key="D1" value="186.55441011425128" />
-      <entry key="W1" value="200.54071977463315" />
+      <entry key="MS100" value="1.4244243423856409" />
+      <entry key="MS500" value="4.345795038792106" />
+      <entry key="S2" value="8.652507631345088" />
+      <entry key="S5" value="10.460491146848598" />
+      <entry key="S10" value="11.191676457717689" />
+      <entry key="S30" value="11.721442480443274" />
+      <entry key="S60" value="11.859545719186347" />
+      <entry key="M2" value="11.929476206661482" />
+      <entry key="M5" value="11.971718927872672" />
+      <entry key="M10" value="11.98585041306265" />
+      <entry key="M15" value="11.991303859163624" />
+      <entry key="M30" value="12.189254987387999" />
+      <entry key="H1" value="15.825968806131073" />
+      <entry key="H2" value="35.33465642515231" />
+      <entry key="H4" value="78.49675603666968" />
+      <entry key="D1" value="183.0160271593159" />
+      <entry key="W1" value="214.23736629367014" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000009654" />
-      <entry key="S5" value="1.0000183940759833" />
-      <entry key="S10" value="1.0056457727762087" />
-      <entry key="S30" value="1.315784222108097" />
-      <entry key="S60" value="2.0426889480719757" />
-      <entry key="M2" value="3.1616191099449695" />
-      <entry key="M5" value="4.764797798845157" />
-      <entry key="M10" value="5.694943042275493" />
-      <entry key="M15" value="6.0804875738162165" />
-      <entry key="M30" value="6.594857256082707" />
-      <entry key="H1" value="7.858584344707122" />
-      <entry key="H2" value="10.951016937558588" />
-      <entry key="H4" value="14.756694541152177" />
-      <entry key="D1" value="20.446191937062775" />
-      <entry key="W1" value="21.767634887318604" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="1.838436133651911E-142" />
+      <entry key="S60" value="2.414538727833796E-71" />
+      <entry key="M2" value="1.0869899185562677E-35" />
+      <entry key="M5" value="3.1086430908327625E-14" />
+      <entry key="M10" value="4.599944359273555E-7" />
+      <entry key="M15" value="1.1361801592054788E-4" />
+      <entry key="M30" value="0.028507543630513457" />
+      <entry key="H1" value="0.5166798414905888" />
+      <entry key="H2" value="2.8079737927588035" />
+      <entry key="H4" value="7.472370329998901" />
+      <entry key="D1" value="18.25396933724431" />
+      <entry key="W1" value="21.417797055243383" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.008403522494479529" />
-      <entry key="MS500" value="0.5382209316153406" />
-      <entry key="S2" value="1.4140189448751506" />
-      <entry key="S5" value="1.739950098793764" />
-      <entry key="S10" value="1.9629078651485399" />
-      <entry key="S30" value="3.923211698732836" />
-      <entry key="S60" value="7.302433639620679" />
-      <entry key="M2" value="13.876459169387022" />
-      <entry key="M5" value="27.271537830829125" />
-      <entry key="M10" value="36.61652826662361" />
-      <entry key="M15" value="40.73271038309467" />
-      <entry key="M30" value="46.450879908571245" />
-      <entry key="H1" value="61.075409932277985" />
-      <entry key="H2" value="96.95164153868802" />
-      <entry key="H4" value="141.07195289823792" />
-      <entry key="D1" value="206.99917555790833" />
-      <entry key="W1" value="222.30813632978266" />
+      <entry key="MS100" value="1.4039400799501516" />
+      <entry key="MS500" value="4.320629364271308" />
+      <entry key="S2" value="8.635901876418785" />
+      <entry key="S5" value="10.452177599849858" />
+      <entry key="S10" value="11.187187701768247" />
+      <entry key="S30" value="11.719866723213192" />
+      <entry key="S60" value="11.85874752249915" />
+      <entry key="M2" value="11.929074499451225" />
+      <entry key="M5" value="11.971557615067264" />
+      <entry key="M10" value="11.98577010804651" />
+      <entry key="M15" value="11.991363047243475" />
+      <entry key="M30" value="12.217661440910335" />
+      <entry key="H1" value="16.341915258089784" />
+      <entry key="H2" value="38.14048486841896" />
+      <entry key="H4" value="85.9661200157313" />
+      <entry key="D1" value="201.2687220809602" />
+      <entry key="W1" value="235.6549483969482" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3H9A7ELGUCJ1hF9YoqvUzgL0QYH" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -100,26 +102,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mahmoudhasan/programms/backend/design-pattern-course/creational-design-patterns/builder",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/mahmoudhasan/programms/backend/design-pattern-course/creational-design-patterns/builder/builder-test-sol/src/main/java/com/learn/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mahmoudhasan/programms/backend/design-pattern-course/creational-design-patterns/builder&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/mahmoudhasan/programms/backend/design-pattern-course/creational-design-patterns/builder/builder-test-sol/src/main/java/com/learn/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
@@ -172,5 +174,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/productionrefactor/best/Notification.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
